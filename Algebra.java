@@ -124,7 +124,7 @@ public static int times(int x1, int x2) {
 		}
 		
 		int sqrt = 1;
-		while (times(1, 1)<=x) {
+		while (times(sqrt, sqrt)<=x) {
 			sqrt = sqrt +1;
 		}
 		return sqrt - 1;
